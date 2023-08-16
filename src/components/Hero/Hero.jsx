@@ -2,37 +2,71 @@ import "./Hero.scss";
 import vector_bottom_left from "../../assets/images/vector_1.png";
 import vector_top_right from "../../assets/images/vector_2.png";
 import github from "../../assets/images/github.png";
+import github_dark from "../../assets/images/github_dark.png";
 import linkedin from "../../assets/images/linkedin.png";
+import linkedin_dark from "../../assets/images/linkedin_dark.png";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Hero = () => {
+  const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth >= 1024);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
     <div className="hero-wrapper">
-      <nav>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </nav>
-      <div className="hero-social-media">
-        <a href="https://github.com/CroAnna" target="_blank" rel="noreferrer">
-          <img src={github} alt="github-logo" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ana-%C5%A1karica-89805120b/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={linkedin} alt="linkedin-logo" />
-        </a>
-      </div>
+      {isDesktop ? (
+        <nav className="desktop">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </nav>
+      ) : (
+        <div className="mobile">
+          <div className="content">
+            <nav role="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      )}
+
       <div className="hero-vectors">
         <img className="vector-top" src={vector_top_right} alt="" />
 
@@ -48,6 +82,18 @@ const Hero = () => {
           <p>I’m Full-Stack Web and Mobile developer from Croatia. </p>
         </div>
         <div className="hero-image"></div>
+      </div>
+      <div className="hero-social-media">
+        <a href="https://github.com/CroAnna" target="_blank" rel="noreferrer">
+          <img src={isDesktop ? github : github_dark} alt="github-logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ana-%C5%A1karica-89805120b/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={isDesktop ? linkedin : linkedin_dark} alt="linkedin-logo" />
+        </a>
       </div>
     </div>
   );
