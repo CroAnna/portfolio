@@ -3,13 +3,20 @@ import github from "../../assets/images/github.png";
 import linkedin from "../../assets/images/linkedin.png";
 
 const Footer = () => {
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="footer-wrapper">
       <div className="footer-inner">
         <div className="footer-text">
           <p>© 2023. All rights reserved.</p>
           <p>Ana Škarica</p>
-          <a href="#">Back to top</a>
+          <p className="to-top" onClick={goToTop}>Back to top</p>
         </div>
         <div className="footer-social-media">
           <a href="https://github.com/CroAnna" target="_blank" rel="noreferrer">

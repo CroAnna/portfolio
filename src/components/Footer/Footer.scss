@@ -44,6 +44,16 @@
       width: 90%;
       max-width: 1090px;
       justify-content: space-between;
+
+      .footer-text {
+        text-align: start;
+
+        & .to-top {
+          margin-top: 8px;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
