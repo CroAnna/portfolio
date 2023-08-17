@@ -1,4 +1,5 @@
 import "./App.scss";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import InfoCard from "./components/InfoCard/InfoCard";
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <InfoCard />
       <Projects />
+      <Contact />
       <Footer />
     </>
   );

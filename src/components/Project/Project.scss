@@ -142,6 +142,9 @@
 
       & .buttons {
         gap: 16px;
+        a {
+          gap: 8px;
+        }
       }
     }
   }

@@ -32,7 +32,7 @@ export const projectList = [
     description:
       "Social media app for bikers that allows users to create and join rides, find new biker friends and see where their friends are going. ",
     technologies: [
-      "https://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png",
+      "https://cdn.freebiesupply.com/logos/large/2x/firebase-1-logo-png-transparent.png",
       "https://web-strapi.mrmilu.com/uploads/flutter_logo_470e9f7491.png",
     ],
     urlDemo: "https://youtu.be/YNLnOT_3lEw",
