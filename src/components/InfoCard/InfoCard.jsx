@@ -16,7 +16,7 @@ const InfoCard = () => {
     return () => window.removeEventListener("resize", updateMedia);
   });
   return (
-    <div className="infocard-wrapper">
+    <div className="infocard-wrapper" id="about">
       <div className="infocard-inner">
         <div className="infocard-text">
           <h3>About me</h3>

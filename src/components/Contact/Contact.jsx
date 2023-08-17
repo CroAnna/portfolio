@@ -35,8 +35,9 @@ const Contact = () => {
       );
     form.current.reset();
   };
+
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="contact">
       <div className="contact-inner">
         <div className="contact-text">
           <h3>contact</h3>
@@ -57,16 +58,16 @@ const Contact = () => {
               <input type="email" name="email" required />
             </div>
           </div>
-          <div>
-            <label htmlFor="message">Your message *</label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="5"
-              required
-            ></textarea>
-          </div>
+
+          <label htmlFor="message">Your message *</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+
           <button id="btnSend" type="submit">
             Send message
           </button>

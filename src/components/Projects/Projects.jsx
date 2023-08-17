@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <>
       <img className="crown" src={crown} alt="" />
-      <div className="projects-wrapper">
+      <div className="projects-wrapper" id="projects">
         <img className="stars" src={stars} alt="" />
         <h3>Projects</h3>
         <h4>Every project represents a singular canvas of creation 🎨</h4>
