@@ -11,7 +11,7 @@ export const projectList = [
     ],
     urlDemo: "https://github.com/CroAnna/FoiFlix-movie-app",
     urlGithub: "https://github.com/CroAnna/FoiFlix-movie-app",
-    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/foiflix.jpg",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/foiflix.jpg?raw=true",
     demoType: "video",
   },
   {
@@ -24,7 +24,7 @@ export const projectList = [
     ],
     urlDemo: "https://guesthouse-marina.netlify.app/",
     urlGithub: "https://github.com/CroAnna/BikerZone",
-    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/marina.jpg",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/marina.jpg?raw=true",
     demoType: "web",
   },
   {
@@ -37,7 +37,7 @@ export const projectList = [
     ],
     urlDemo: "https://youtu.be/YNLnOT_3lEw",
     urlGithub: "https://github.com/CroAnna/Guesthouse-Marina",
-    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/bikerzone.jpg",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/bikerzone.jpg?raw=true",
     demoType: "video",
   },
 ];

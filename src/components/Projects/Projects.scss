@@ -1,5 +1,9 @@
 @import "../../utils/theme.scss";
 
+.crown {
+  display: none;
+}
+
 .projects-wrapper {
   & h3 {
     color: $colorPrimary;
@@ -24,6 +28,10 @@
     flex-direction: column;
     gap: 40px;
   }
+
+  .stars {
+    display: none;
+  }
 }
 
 @media screen and ($tablet) {
@@ -31,6 +39,7 @@
     max-width: 1090px;
     width: 90%;
     margin: 30px auto;
+    position: relative;
 
     & h3 {
       padding: 32px 16px 8px 0px;
@@ -40,5 +49,20 @@
       padding: 16px 0;
       max-width: 400px;
     }
+
+    .stars {
+      position: absolute;
+      right: 20px;
+      display: block;
+    }
+  }
+}
+
+@media screen and ($desktop) {
+  .crown {
+    position: absolute;
+    left: 20px;
+    top: 2500px;
+    display: block;
   }
 }
