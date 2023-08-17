@@ -1,0 +1,17 @@
+@import "../../utils/theme.scss";
+
+.btn-scroll-to-top {
+  bottom: 48px;
+  right: 30px;
+  position: fixed;
+  font-size: 3rem;
+  color: $colorPrimary;
+  cursor: pointer;
+  border: none;
+  border-radius: 55px;
+  z-index: 1;
+}
+.btn-scroll-to-top:hover {
+  transition: 1s;
+  scale: 1.2;
+}

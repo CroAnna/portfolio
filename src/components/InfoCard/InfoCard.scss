@@ -15,7 +15,7 @@
         letter-spacing: 10%;
         font-weight: 500;
         font-size: 20px;
-        padding: 32px 16px 8px 0px;
+        padding: 32px 16px 8px 16px;
         margin-top: 16px;
       }
 
@@ -23,7 +23,7 @@
         color: $colorTextPrimary;
         font-weight: 700;
         font-size: 20px;
-        padding: 16px 0;
+        padding: 16px;
         line-height: 150%;
       }
 
@@ -32,7 +32,7 @@
         font-weight: 400;
         text-align: justify;
         font-size: 15px;
-        padding: 8px 16px 8px 0;
+        padding: 8px 16px;
         line-height: 180%;
       }
 
@@ -54,6 +54,15 @@
     .infocard-inner {
       .infocard-text {
         width: 90%;
+        & h3 {
+          padding: 32px 16px 8px 0px;
+        }
+        & h4 {
+          padding: 16px 0;
+        }
+        & p {
+          padding: 8px 16px 8px 0;
+        }
       }
 
       img {
