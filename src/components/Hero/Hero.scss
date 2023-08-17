@@ -128,6 +128,7 @@
     display: flex;
     gap: 16px;
     justify-content: center;
+    padding-bottom: 32px;
 
     img {
       width: 40px;
@@ -197,7 +198,7 @@
       }
 
       .vector-left {
-        width: 300px;
+        width: 200px;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -209,6 +210,20 @@
         margin: 50px auto 30px;
         height: 300px;
         width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and ($tabletLarge) {
+  .hero-wrapper {
+    .hero-vectors {
+      .vector-top {
+        width: 300px;
+      }
+
+      .vector-left {
+        width: 290px;
       }
     }
   }
@@ -287,8 +302,8 @@
       }
 
       .vector-left {
-        width: 300px;
-        bottom: 0px;
+        width: 350px;
+        bottom: -20px;
       }
     }
   }
