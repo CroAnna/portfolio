@@ -19,6 +19,7 @@
       object-position: top center;
       transition: all 5s ease-in-out;
     }
+
     &:hover img {
       object-position: bottom center;
     }
@@ -42,6 +43,7 @@
       line-height: 150%;
       text-align: center;
     }
+    
     .project-technologies {
       display: flex;
       gap: 24px;

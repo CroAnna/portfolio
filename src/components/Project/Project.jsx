@@ -1,27 +1,14 @@
 import PropTypes from "prop-types";
-import { useState, useEffect } from "react";
 import extLink from "../../assets/images/external-link.png";
 import github_dark from "../../assets/images/github_dark.png";
 
 import "./Project.scss";
 
 const Project = ({ project }) => {
-  const [imagePath, setImagePath] = useState(null);
-
-  useEffect(() => {
-    import(`../../assets/images/${project.img}`)
-      .then((module) => {
-        setImagePath(module.default);
-      })
-      .catch((error) => {
-        console.error("Error loading image:", error);
-      });
-  }, [project.img]);
-
   return (
     <div className="project-wrapper">
       <div className="project-image">
-        {imagePath && <img src={imagePath} alt={project.title} />}
+        <img src={project.img} alt={project.title} />
       </div>
       <div className="project-data">
         <h2>{project.title}</h2>
