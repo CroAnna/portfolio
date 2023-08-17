@@ -23,6 +23,7 @@ const InfoCard = () => {
           <h4>Passionate developer based in Karlovac, Croatia 📍</h4>
           <p>
             I am a Junior Developer well-versed in <b>React</b>, <b>Angular</b>,
+            {"  "}
             <b>Node.js</b>, <b>Flutter</b>, and <b>C#</b>. My knack for creating
             user-friendly interfaces using React and Angular, coupled with
             Node.js backend skills, enables me to build seamless web
