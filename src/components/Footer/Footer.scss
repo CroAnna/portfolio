@@ -1,0 +1,46 @@
+@import "../../utils/theme.scss";
+
+.footer-wrapper {
+  background-color: $colorTextPrimary;
+  color: $colorTextSecondary;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0 24px;
+
+  .footer-inner {
+    .footer-text {
+      padding: 16px 0;
+
+      p {
+        line-height: 150%;
+      }
+
+      a {
+        line-height: 220%;
+        color: $colorTextSecondary;
+      }
+    }
+
+    .footer-social-media {
+      justify-content: center;
+      display: flex;
+      gap: 16px;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}
+
+@media screen and ($tablet) {
+  .footer-wrapper {
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      width: 90%;
+      max-width: 1090px;
+      justify-content: space-between;
+    }
+  }
+}

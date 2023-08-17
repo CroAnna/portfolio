@@ -9,31 +9,30 @@
     align-items: center;
 
     .infocard-text {
-      
       & h3 {
         color: $colorPrimary;
         text-transform: uppercase;
         letter-spacing: 10%;
         font-weight: 500;
         font-size: 20px;
-        padding: 32px 16px 8px 16px;
+        padding: 32px 16px 8px 0px;
         margin-top: 16px;
       }
 
       & h4 {
-        color: $colorGrey;
+        color: $colorTextPrimary;
         font-weight: 700;
         font-size: 20px;
-        padding: 0 16px;
+        padding: 16px 0;
         line-height: 150%;
       }
 
       & p {
-        color: $colorGrey;
+        color: $colorTextPrimary;
         font-weight: 400;
         text-align: justify;
         font-size: 15px;
-        padding: 8px 16px;
+        padding: 8px 16px 8px 0;
         line-height: 180%;
       }
 
@@ -52,9 +51,7 @@
 
 @media screen and ($tablet) {
   .infocard-wrapper {
-
     .infocard-inner {
-
       .infocard-text {
         width: 90%;
       }
@@ -104,12 +101,5 @@
         margin: 0 auto;
       }
     }
-  }
-}
-
-@media screen and ($desktopLarge) {
-  .infocard-wrapper {
-    width: 85%;
-    padding-left: 15%;
   }
 }
