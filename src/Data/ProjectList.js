@@ -9,7 +9,7 @@ export const projectList = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png",
       "https://sass-lang.com/assets/img/styleguide/seal-color.png",
     ],
-    urlDemo: "https://github.com/CroAnna/FoiFlix-movie-app",
+    urlDemo: "https://youtu.be/ep1CC9st2TI",
     urlGithub: "https://github.com/CroAnna/FoiFlix-movie-app",
     img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/foiflix.jpg?raw=true",
     demoType: "video",
