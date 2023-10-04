@@ -9,10 +9,10 @@ export const projectList = [
       "https://pipedream.com/s.v0/app_1YMhwo/logo/orig",
       "https://sass-lang.com/assets/img/styleguide/seal-color.png",
     ],
-    urlDemo: "",
+    urlDemo: "https://youtu.be/Y4T0aCTp1qI",
     urlGithub: "https://github.com/Fosleen/PCHUT",
     img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/pchut.jpg?raw=true",
-    demoType: "web",
+    demoType: "video",
   },
   {
     title: "Guesthouse Marina",
