@@ -15,6 +15,23 @@ export const projectList = [
     demoType: "video",
   },
   {
+    title: "Stylo",
+    description:
+      "Footwear webshop project with MACH architecture. Built using React and Express. Focus was on using CMS and E-commerce platforms and integrating it into a working webshop with microservices connected using API gateway.",
+    technologies: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "https://www.svgrepo.com/show/374118/tailwind.svg",
+      "https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjSRIf%2FbtrtqOKnLcv%2F6fhZzWLPIJdsoQFWzOyCr1%2Fimg.jpg",
+      "https://static-00.iconduck.com/assets.00/docker-icon-icon-2048x1479-cres2he9.png",
+      "https://pipedream.com/s.v0/app_mn5hDK/logo/orig",
+      "https://static-00.iconduck.com/assets.00/contentful-icon-454x512-8ffc9x65.png",
+    ],
+    urlDemo: "https://www.youtube.com/watch?v=VIzjsMCsqaA",
+    urlGithub: "https://github.com/CroAnna/Stylo",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/stylo.jpg?raw=true",
+    demoType: "video",
+  },
+  {
     title: "Guesthouse Marina",
     description:
       "A website about apartment with clean and modern design that is easy to use. Multilingual (Croatian & English), animated, with contact form connected to rent owners. ",
@@ -27,20 +44,7 @@ export const projectList = [
     img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/marina.jpg?raw=true",
     demoType: "web",
   },
-  {
-    title: "MoveMent",
-    description:
-      "Winning project at the Ri-Hack hackathon: full-stack web app. Frontend dev and UI designer in our team. Users can add and find physical jobs and outdoor activities, filter them by radius using real-time location.",
-    technologies: [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-      "https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjSRIf%2FbtrtqOKnLcv%2F6fhZzWLPIJdsoQFWzOyCr1%2Fimg.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png",
-    ],
-    urlDemo: "https://youtu.be/Pd5PKW4IKP8",
-    urlGithub: "https://github.com/CroAnna/MoveMent",
-    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/movement.jpg?raw=true",
-    demoType: "video",
-  },
+
   {
     title: "BikerZone",
     description:
@@ -67,6 +71,20 @@ export const projectList = [
     urlDemo: "https://youtu.be/ep1CC9st2TI",
     urlGithub: "https://github.com/CroAnna/FoiFlix-movie-app",
     img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/foiflix.jpg?raw=true",
+    demoType: "video",
+  },
+  {
+    title: "MoveMent",
+    description:
+      "Winning project at the Ri-Hack hackathon: full-stack web app. Frontend dev and UI designer in our team. Users can add and find physical jobs and outdoor activities, filter them by radius using real-time location.",
+    technologies: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjSRIf%2FbtrtqOKnLcv%2F6fhZzWLPIJdsoQFWzOyCr1%2Fimg.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png",
+    ],
+    urlDemo: "https://youtu.be/Pd5PKW4IKP8",
+    urlGithub: "https://github.com/CroAnna/MoveMent",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/movement.jpg?raw=true",
     demoType: "video",
   },
 ];
