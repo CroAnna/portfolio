@@ -1,5 +1,20 @@
 export const projectList = [
   {
+    title: "TravEM",
+    description:
+      "Made for bloggers. Used by travelers.🌍Travel blog with custom CMS (articles, countries, places, blog data), user and admin view,  interactive map, analytics, ads and UI that draws attention.",
+    technologies: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "https://img1.daumcdn.net/thumb/R750x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbjSRIf%2FbtrtqOKnLcv%2F6fhZzWLPIJdsoQFWzOyCr1%2Fimg.jpg",
+      "https://pipedream.com/s.v0/app_1YMhwo/logo/orig",
+      "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+    ],
+    urlDemo: "https://putujemstravem.com/",
+    urlGithub: "https://github.com/Fosleen/travEM",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/travem.png?raw=true",
+    demoType: "web",
+  },
+  {
     title: "PChut",
     description:
       "A full-stack tech webshop. Offers advanced filtering options, custom PC builder, order history and futuristic design.",
