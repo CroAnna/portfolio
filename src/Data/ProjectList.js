@@ -15,6 +15,20 @@ export const projectList = [
     demoType: "web",
   },
   {
+    title: "Vacation home Franca",
+    description:
+      "A unique website for a charming rental property by the river Kupa. My work also involved creating all visuals (photos, video, logo).",
+    technologies: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "https://www.svgrepo.com/show/374118/tailwind.svg",
+      "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/format-js.png?raw=true",
+    ],
+    urlDemo: "https://youtu.be/Y4T0aCTp1qI",
+    urlGithub: "https://github.com/Fosleen/PCHUT",
+    img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/franca.jpg?raw=true",
+    demoType: "video",
+  },
+  {
     title: "PChut",
     description:
       "A full-stack tech webshop. Offers advanced filtering options, custom PC builder, order history and futuristic design.",
