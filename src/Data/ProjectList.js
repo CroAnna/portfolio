@@ -23,10 +23,10 @@ export const projectList = [
       "https://www.svgrepo.com/show/374118/tailwind.svg",
       "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/format-js.png?raw=true",
     ],
-    urlDemo: "https://youtu.be/Y4T0aCTp1qI",
-    urlGithub: "https://github.com/Fosleen/PCHUT",
+    urlDemo: "https://kucazaodmorfranca.com/",
+    urlGithub: "https://github.com/Fosleen/vacation-home-franca",
     img: "https://github.com/CroAnna/portfolio/blob/main/src/assets/images/franca.jpg?raw=true",
-    demoType: "video",
+    demoType: "web",
   },
   {
     title: "PChut",
